@@ -1,0 +1,50 @@
+<annotation>
+	<folder>images</folder>
+	<filename>image (71).jpg</filename>
+	<path>C:\Users\lisan\Documents\Repositorios\Mecatronica Aplicada\mecatronica-aplicada\image_detection\barbijo\train\images\image (71).jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>512</width>
+		<height>269</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>barbijo</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>44</xmin>
+			<ymin>67</ymin>
+			<xmax>132</xmax>
+			<ymax>147</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>barbijo</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>189</xmin>
+			<ymin>113</ymin>
+			<xmax>255</xmax>
+			<ymax>178</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>barbijo</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>368</xmin>
+			<ymin>127</ymin>
+			<xmax>446</xmax>
+			<ymax>194</ymax>
+		</bndbox>
+	</object>
+</annotation>
