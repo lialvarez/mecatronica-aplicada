@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1045</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QGridLayout" name="gridLayout_2">
+    <item row="1" column="0" colspan="2">
+     <widget class="QPushButton" name="btn_start_stop">
+      <property name="text">
+       <string>Start/Stop</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="0" colspan="2">
+     <layout class="QGridLayout" name="gridLayout">
+      <item row="0" column="0">
+       <layout class="QVBoxLayout" name="acc_t_layout"/>
+      </item>
+      <item row="0" column="1">
+       <layout class="QVBoxLayout" name="acc_f_layout"/>
+      </item>
+      <item row="1" column="0">
+       <layout class="QVBoxLayout" name="gyro_t_layout"/>
+      </item>
+      <item row="1" column="1">
+       <layout class="QVBoxLayout" name="gyro_f_layout"/>
+      </item>
+      <item row="2" column="0">
+       <layout class="QVBoxLayout" name="angles_t_layout"/>
+      </item>
+      <item row="2" column="1">
+       <layout class="QVBoxLayout" name="angles_f_layout"/>
+      </item>
+     </layout>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1045</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
